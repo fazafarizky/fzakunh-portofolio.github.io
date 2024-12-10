@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Digital</title>
+  <style>
+    /* Reset dan Font */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+
+    /* Navigasi */
+    header {
+      background: linear-gradient(90deg, #3f51b5, #5F9EA0);
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header ul li {
+      margin: 0 15px;
+    }
+
+    header ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    header ul li a:hover {
+      color: #ffeb3b;
+    }
+
+    /* Hero Section */
+    #hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    animation: fadeIn 2s ease-in-out;
+    }
+
+    #hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    #hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    #hero .cta-button {
+      background: #ff5722;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 5px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    #hero .cta-button:hover {
+      background: #e64a19;
+      transform: scale(1.1);
+    }
+
+    /* Section Style */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #3f51b5;
+      margin-bottom: 20px;
+      position: relative;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    section p {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    /* Projects Section */
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      animation: popUp 0.5s ease-in-out;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .project-card h3 {
+      font-size: 1.5rem;
+      color: #333;
+      padding: 10px;
+    }
+
+    .project-card p {
+      padding: 0 10px 20px;
+      color: #777;
+    }
+
+    /* Kontak Section */
+    #contact a {
+      color: #ff5722;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+  .contact-btn {
+      width: 50%;
+      background-color: white;
+      border-radius: 14px;
+      margin-bottom: 14px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 10px;
+  }
+  .contact-btn:hover {
+      background-color: black;
+      color: white;
+      transition: 0.5s;
+  }
+    #contact a:hover {
+      color: #e64a19;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #3f51b5;
+      color: white;
+    }
+
+    /* Animasi */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes popUp {
+      from {
+        transform: scale(0.9);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </header>
+
+  <section id="hero">
+    <h1>MUHAMMAD ABDAN FAZAFARIZKY</h1>
+    <p>Graphic Designer | Creator Video | Network Administration Technician</p>
+    <button class="cta-button">Jelajahi</button>
+  </section>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Perkenalkan nama saya Muhammad Abdan FazaFarizky, saya lahir dikota Kudus tanggal 08 Juli tahun 2007, saya merupakan anak pertama dari dua bersaudara, saya adalah lulusan dari SMKN 2 Kudus tahun 2025 jurusan teknik komputer jaringan telekomunikasi.<br>
+
+Saya adalah seseorang yang berkomitmen tinggi dalam pekerjaan,  Saya punya semangat untuk belajar hal hal baru, saya juga punya ide kreatif dalam menyelesaikan masalah, serta saya selalu ingin memberikan yang maksimal ketika diberikan kesempatan
+
+Saya memiliki pengalaman dalam PKL disebuah industri ISP yang bernama PT LINTAS JARINGAN NUSANTARA cabang Kudus tahun 2024. Selama menjalani PKL selama 4 bulan, saya dengan mudah beradaptasi pada lingkungan baru, dan saya mampu mengerjakan beberapa tugas sebagai teknisi jaringan dan layanan jasa internet.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+  <style> {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .portfolio-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .portfolio-item {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .portfolio-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .portfolio-item:hover img {
+      transform: scale(1.2);
+    }
+
+    .portfolio-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-item:hover .portfolio-info {
+      transform: translateY(0);
+    }
+
+    .portfolio-info h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .portfolio-info p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #fff;
+    }
+  </style>
+  <div class="portfolio-container">
+    <div class="portfolio-item">
+      <img src="p1.jpeg" alt="Portfolio 1">
+      <div class="portfolio-info">
+        <h3>ADMINISTRATION NETWORK</h3>
+        <p>Kegiatan pemeliharaan sistem, dan manajemen infrastruktur.</p>
+      </div>
+    </div>
+    <div class="portfolio-item">
+      <img src="p2.jpeg" alt="Portfolio 2">
+      <div class="portfolio-info">
+        <h3>TROUBLESHOOTING</h3>
+        <p>menangani gangguan di sebuah FTTH, gangguan tersebut berdampak pada redaman.</p>
+      </div>
+    </div>
+    <div class="portfolio-item">
+      <img src="p3.jpeg" alt="Portfolio 3">
+      <div class="portfolio-info">
+        <h3>BEGINNER TECHNICIAN</h3>
+        <p>konsep dan cara kerja FTTH ( Fiber To 
+        The Home ) adalah jaringan internet yang menggunakan kabel fiber optik untuk 
+        menghubungkan perangkat pengguna langsung ke jaringan internet. T</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="contact">
+    <section id="contact" class="section">
+        <h2 class="section-title">Kontak</h2>
+    <div class="section">
+        <div class="section-description">
+
+            <a href="mailto: fazafarizky403@gmail.com">
+            <button class="contact-btn">Email</button>
+            </a>
+
+            <a onclick="window.open('https://wa.link/c9w91m');">
+            <button class="contact-btn">WhatsApp</button>   
+            </a>
+        </div>
+    </div>
+    </section>
+  </section>
+
+  <footer>
+    <p>&copy; 2024.Fazafarizky.</p>
+  </footer>
+</body>
+</html>
